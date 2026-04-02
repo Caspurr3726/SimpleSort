@@ -1,10 +1,10 @@
-## Simple Sort
-###### A simple file sorter by Caspurr3726
+# Simple Sort
+##### A simple file sorter by Caspurr3726
 
 
 
 
-### How to run:
+## How to run:
 
 
 Right click inside `sort.py`'s current directory and select "Open in Terminal"
@@ -14,7 +14,7 @@ Run `python sort.py`, followed by optional [arguments](#arguments)
 
 
 
-### Arguments
+## Arguments
 
 
 -h, --help            show this help message and exit
@@ -22,13 +22,13 @@ Run `python sort.py`, followed by optional [arguments](#arguments)
 -e Exclude            file extensions excluded from sorting
 
 
-#### Change Directory
+### Change Directory
 
 
 Input a file path for `sort.py` to pull from. If left blank, a folder named "unsorted" will be created in `sort.py`'s current folder.
 
 
-#### Exclude
+### Exclude
 
 
 Input a list of file extensions, such as "txt", "png" or "jpg, without a "." to prevent them from being sorted.
