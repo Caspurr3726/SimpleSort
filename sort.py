@@ -4,7 +4,6 @@ import shutil
 import argparse
 import sys
 
-# Test comment
 parser = argparse.ArgumentParser(usage="Sorts files into folders based on file extensions", description="A simple file sorter by Caspurr3726")
 parser.add_argument("-cd", metavar= "Change Directory", default = "./unsorted", help = "change directory to pull files from", type = str)
 parser.add_argument("-e", metavar= "Exclude", default = [], help = "file extensions excluded from sorting", type = str, nargs="*")
